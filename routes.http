@@ -1,5 +1,3 @@
-//npm run dev -> rodar aplicação via terminal
-//npm run -> dev <- foi setado no package.json para ser um script que recarrega sozinho sempre que salvo, e ira rodar server.js
 //Basta dar Send Requests para testar
 //Alterar id do video no fim da rota para alterar e deletar
 //Conferir alterações no "Postgres Web" -> Neon.tech
