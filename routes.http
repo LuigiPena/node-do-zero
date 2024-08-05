@@ -1,0 +1,34 @@
+//npm run dev -> rodar aplicação via terminal
+//npm run -> dev <- foi setado no package.json para ser um script que recarrega sozinho sempre que salvo, e ira rodar server.js
+//Basta dar Send Requests para testar
+//Alterar id do video no fim da rota para alterar e deletar
+//Conferir alterações no "Postgres Web" -> Neon.tech
+
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Video node",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:3333/videos
+//GET http://localhost:3333/videos?search=node
+
+###
+
+PUT http://localhost:3333/videos/4e630363-8a7e-4eec-ba95-8435c5c758f4
+Content-Type: application/json
+
+{
+    "title": "Video 02",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:3333/videos/4e630363-8a7e-4eec-ba95-8435c5c758f4
