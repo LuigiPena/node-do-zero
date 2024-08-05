@@ -2,7 +2,7 @@
 //Alterar id do video no fim da rota para alterar e deletar
 //Conferir alterações no "Postgres Web" -> Neon.tech
 
-POST http://localhost:3333/videos
+POST https://node-do-zero-hequ.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -13,12 +13,12 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
-//GET http://localhost:3333/videos?search=node
+GET https://node-do-zero-hequ.onrender.com/videos
+//GET https://node-do-zero-hequ.onrender.com/videos?search=node
 
 ###
 
-PUT http://localhost:3333/videos/4e630363-8a7e-4eec-ba95-8435c5c758f4
+PUT https://node-do-zero-hequ.onrender.com/videos/6409d8ab-e5db-495b-b19d-449f036f2a08
 Content-Type: application/json
 
 {
@@ -29,4 +29,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/4e630363-8a7e-4eec-ba95-8435c5c758f4
+DELETE https://node-do-zero-hequ.onrender.com/videos/4e630363-8a7e-4eec-ba95-8435c5c758f4
